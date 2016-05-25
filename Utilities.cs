@@ -9,7 +9,7 @@ namespace CS431OS
     // Basic Utilities not provided within the COSMOS base.
     public class Utilities
     {
-        // Convert strings to Int32 values.
+        // Convert Strings to Int32 values.
         public static Int32 stringToInt(String input)
         {
             Int32 output;
