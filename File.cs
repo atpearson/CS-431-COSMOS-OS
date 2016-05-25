@@ -18,7 +18,7 @@ namespace CS431OS
         Int32 line;
         ArrayList data;
 
-        // Main constructor for File objects.
+        // Main constructor for File objects, takes a name and extension.
         public File(String n, String e)
         {
             name = n;
