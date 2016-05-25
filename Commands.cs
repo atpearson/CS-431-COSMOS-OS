@@ -8,10 +8,12 @@ using System.Threading.Tasks;
 
 namespace CS431OS
 {
-    // The Commands class contains most of the functionality of the OS by containing all the methods that the user calls while working with the OS.
+    // The Commands class contains most of the functionality of the OS by containing all the methods that the user calls 
+    // while working with the OS.
     public class Commands
     {
-        // The interpret method takes the user's input and separates out the keyword representing a command and runs the appropriate method corresponding to the given command.
+        // The interpret method takes the user's input and separates out the keyword representing a command and runs 
+        // the appropriate method corresponding to the given command.
         public static void interpret(String input)
         {
             Char[] inputC = input.ToCharArray();
@@ -299,7 +301,8 @@ namespace CS431OS
             return v;
         }
 
-        // The evaluate method takes a char array and runs it as either a string or numeric expression depending on whether it includes and strings within the expression.
+        // The evaluate method takes a char array and runs it as either a string or numeric expression depending on 
+        // whether it includes and strings within the expression.
         public static String evaluate(Char[] eq)
         {
             String value;
