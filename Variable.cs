@@ -9,7 +9,7 @@ namespace CS431OS
     // The Variable object is used for saving values and performing arithmetic within the OS.
     public class Variable
     {
-        // Attributes include a name and value pair such as x = 5 where x is the name and 5 is the value.
+        // Attributes include a name and value pair such as x = 5.
         public String name;
         public String value;
 
