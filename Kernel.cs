@@ -8,7 +8,7 @@ namespace CS431OS
     // The main Kernel file of the OS.
     public class Kernel : Sys.Kernel
     {
-        // Attributes include various LinkedLists for storing files, variables, and operations to be performed.
+        // Attributes include various LinkedLists for storing files, variables, and commands to be performed.
         public static LinkedList<File> file_directory;
         public static LinkedList<Variable> variables;
         public static LinkedList<File> readyQueue;
